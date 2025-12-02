@@ -16,7 +16,7 @@
        <p>orci lorem. nisi orci sed eget lacus consectetur Cras elementum sed elit. urna. Nullam felis, vel hendrerit sodales. Quisque diam Cras enim. scelerisque nec vel Cras leo. dolor odio efficitur. lobortis, elit. non sed facilisis hendrerit </p>
     </article>
 <h2>Meets Our Chefs</h2>
-<article Forum>
+<form>
  <label for="customer-name">Full Name:</label>
       <input type="text" id="customer-name" name="customer-name" required>
     </div>
@@ -30,25 +30,51 @@
    </div>
     <div>
       <label for="customer-Allergies">Allergies</label>
-     <select id="allergies-selection" name="allergies-selection-name">
+     <select id="allergies-selection" name="allergies-selection-name" required>
         <option value="">Select</option>
         <option value="canola">Canola Oil</option>
-        <option value="nut">Nut</option>
+        <option value="nut">Peanut</option>
+        <option value="nut">Tree Nut</option>
         <option value="dairy">Dairy</option>
         <option value="gluten">Gluten</option>
         <option value="soy">Soy</option>
+        <option value="egg">Egg</option>
+        <optgroup value="fish">Shellfish</optgroup>
         <option value="">None</option>
      </select>
    </div>
        <div>
       <label for="customer-Other">Other</label>
-      <input type="text" id="customer-other" name="customer-other" required>
+      <input type="text" id="customer-other" name="customer-other">
    </div>
     <div>
-      <label for="customer-Preferances">Dietary Preferances</label>
-      <input type="text" id="customer-Preferances" name="customer-other" required>
+      <label for="customer-Preferences">Dietary Preferences</label>
+     <select id="preferences-selection" name="preferences-selection-name" required>
+        <option value="">Select</option>
+        <option value="omnivore">Omnivore</option>
+        <option value="veggie">Vegitatarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="fish">Pescetarian</option>
+        <option value="pan">Keto</option>
+        <option value="hole">Whole Food</option>
+     </select>
    </div>
-   </fieldset>
+         <label for="customer-cuisine">Ideal Cusine</label>
+     <select id="preferences-selection" name="preferences-selection-name">
+        <option value="">Select</option>
+        <option value="">Thai</option>
+        <option value="">Italian</option>
+        <option value="">Indian</option>
+        <option value="">Greek</option>
+        <option value="">Latin</option>
+    
+     <label for="customer-amount">Number of peolpe being served</label>
+     <input type="text" id="customer-amount" name="customer-amount" required>
+   
+     <div>
+        <input type="submit"></button>
+    </div>
+  </form>
 </article>
     <footer>
         <h2>Looking Forwards To Dining With you!</h2>
