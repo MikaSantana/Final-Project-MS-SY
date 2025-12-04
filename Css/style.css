@@ -23,3 +23,18 @@ body {
   min-height: 100vh;
 
 }
+img {
+  width: 25%;
+  height: 25%;
+}
+
+.baron{
+  position: relative;
+}
+.description{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width:calc(100%-20px)
+
+}
