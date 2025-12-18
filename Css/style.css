@@ -25,9 +25,9 @@ h2 {
   font-family: "Aboreto", system-ui;
   font-weight: 400;
   font-style: normal;
-font-size: 2.05rem;
+  font-size: 2.05rem; 
   font-weight: 400;
-  align-items: ;
+  align-items: center;
   color:black;
   display: flex;
   background-color: antiquewhite;
@@ -47,4 +47,50 @@ label {
   font-family: "Antic", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+h3 {
+  color: #000;
+  font-family: Aboreto;
+  font-size: 2.05rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: antiquewhite;
+
+  padding-left: 2vw; /* space before "Book a Consultation Today" it*/
+}
+
+form {
+  padding-left: 2vw; /* form" it*/
+  padding-right: 2vw;
+  padding-top: 2vw; /* form" it*/
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: antiquewhite;
+  color: black;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: antiquewhite;
+  color: black;
+}
+
+.twoContainer{
+    display: flex;
+}
+
+.twoContainer img {
+    width: 500px;
 }
